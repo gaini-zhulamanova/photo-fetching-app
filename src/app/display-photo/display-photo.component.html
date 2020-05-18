@@ -1,0 +1,8 @@
+<div class="container">
+    <div>
+        <button (click)="handleEvent($event)">Get a photo!</button>
+    </div>
+    <div>
+        <img *ngIf="regularImg" [src]="regularImg" alt="Random Image">
+    </div>
+</div>
